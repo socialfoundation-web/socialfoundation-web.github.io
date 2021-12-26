@@ -23,6 +23,8 @@ section h1{
     margin-bottom: 2rem;
     padding-bottom: 2rem;
     text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
 }
 
 .pre-header{
@@ -120,30 +122,30 @@ section h1{
     margin: 2rem;
 }
 
-.work-area .work-outer{
+.work-outer{
     margin: 1rem 0;
 }
 
-.work-area .work-el{
+.work-el{
     background-color: var(--secondary);
     color: var(--ternary);
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     margin-bottom: 2rem;
 }
-.work-area .work-el h2{
+.work-el h2{
     color: white;
     font-weight: bold;
     text-transform: capitalize;
 }
 
-.work-area .work-el-alt{
+.work-el-alt{
     /* margin-top: 2rem; */
     /* margin-bottom: 2rem; */
     background-color: var(--ternary);
     color: var(--primary);
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
-.work-area .work-el-alt h2{
+.work-el-alt h2{
     color: black;
     font-weight: bold;
     text-transform: capitalize;
@@ -171,3 +173,10 @@ section h1{
     color: var(--ternary);
 }
 
+/* about.html */
+.gen-info{
+
+}
+.gen-info table tr{
+    font-size: 1.3rem;
+}
