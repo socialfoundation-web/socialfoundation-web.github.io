@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+
+    --primary : #1d3c45;
+    --secondary:#d2601a;
+    --ternary : #fff1e1;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #fff;
+}
+section {
+    margin: 0;
+    padding: 2rem;
+}
+section h1{
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    text-transform: capitalize;
+}
+
+.pre-header{
+    background-color: var(--ternary);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-height: 2rem;
+    margin:0;
+    opacity: 0.7;
+}
+
+.pre-header p{
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.pre-header .social{
+}
+
+.pre-header .social ul{
+    margin: 1rem;
+    list-style: none;
+    display: flex;
+    letter-spacing: 0.4rem;
+}
+
+.pre-header .social ul li a{
+    text-decoration: none;
+}
+.navig .logo h1{
+    font-weight: bold;
+}
+.navig .logo span{
+    color: var(--secondary);
+}
+
+.navig h1{ 
+    color: var(--primary);
+}
+.navig ul{
+    color: var(--primary);
+}
+
+#nav .nav-link{
+    color: var(--primary);
+}
+#nav .nav-link:hover{
+    color: var(--secondary);
+}
+#nav .nav-link.active{
+    color: var(--ternary);
+    background-color: var(--secondary);
+}
+
+
+.hero{
+    margin: 2rem 0;
+    padding: 2rem;
+}
+.hero .hero-inner{
+    text-align: center;
+    /* margin: 10%; */
+}
+
+.hero .hero-inner h1{
+    font-weight: bold;
+    color: var(--primary);
+}
+.hero .hero-inner p{
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+.hero .hero-inner button{
+    background-color: var(--secondary);
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: var(--ternary);
+    
+}
+.hero .hero-inner button:hover{
+    background-color: var(--ternary);
+    color: var(--primary);
+}
+
+#counter{
+    margin: 0;
+    padding: 2rem;
+    background-color: var(--secondary);
+    color: var(--ternary);
+}
+
+.work-area{
+    margin: 2rem;
+}
+
+.work-area .work-outer{
+    margin: 1rem 0;
+}
+
+.work-area .work-el{
+    background-color: var(--secondary);
+    color: var(--ternary);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    margin-bottom: 2rem;
+}
+.work-area .work-el h2{
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.work-area .work-el-alt{
+    /* margin-top: 2rem; */
+    /* margin-bottom: 2rem; */
+    background-color: var(--ternary);
+    color: var(--primary);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.work-area .work-el-alt h2{
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.btn-sec{
+    background-color: var(--secondary);
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: var(--ternary);
+    
+}
+
+.btn-sec:hover{
+    background-color: var(--ternary);
+    color: var(--primary);
+}
+
+.programmes{
+    background-color: var(--secondary)	;
+    padding: 2rem;
+}
+.programmes h1{
+    color: var(--ternary);
+}
+
